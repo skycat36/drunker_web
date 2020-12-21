@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.containerBodyHomePage
+{
+  text-align: center;
+  padding: 10px; 
+  background-color: #eee;
+  line-height: 1.5;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+}
+
+.div_center
+{
+  display: inline-block;
+  width: 260px;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff; 
+  border-radius: 3px;
+  margin: 10px;
+  height: 300px;
+}
+
+.div_center img{
+    width:150px; 
+    height:auto; 
+    margin-bottom:10px;
+}
+
+
+.div_text
+{
+  font: 14px 'Source Code Pro', monospace;
+	color: #333;
+}
+@media screen and (max-width: 600px) 
+{
+  .div_center
+    {
+       max-width: 100%;
+    }
+}
+
+.h1{
+    font-size: 35px;
+    font-weight:800;
+    font-family: 'IntroBlack';
+    padding-bottom: 10px;
+    margin-bottom: 32px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.hr{
+    height: 3px;
+    background-color: #018365;
+    
+}
+
+a{
+    color:#038768; 
+    font-weight:800; 
+    font-size:19px; 
+    font-family:calibri;
+}
+
+/*Personaliation du bouton*/
+span{
+    margin-top: 300px;
+}
+
+span .button_more{
+    margin: 0 auto;
+}
+
+.button_more{
+    align-items: center;
+	font:Bold 20px Arial;
+	background:#038768;
+	color:#fff;
+    width: 360px;
+    height: 52px;
+    letter-spacing: 0.02em;
+	border-radius:3px;
+    display: block;
+    text-align: center;
+}
+

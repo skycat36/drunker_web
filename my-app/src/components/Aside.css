@@ -1,0 +1,58 @@
+/*Style for liste of links*/
+
+.aside__object{
+    width: 100%;
+    padding: 25px 10px 25px 10px;
+}
+
+.aside__object ul{
+    list-style-type:none;
+    padding: 25px 10px 25px 10px;
+    margin: 0px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.aside__object ul li a {
+    padding: 12px 17px!important;
+    color: #fff;
+    border-bottom: 1px solid rgb(44, 112, 87);
+    font-size: 16px;
+    position: relative;
+}
+
+.aside__object ul li a:hover {
+    padding: 12px 17px!important;
+    color: #fff;
+    border: 1px solid #1E3938;
+    background-color:  #1E3938;
+    border-radius: 3px;
+    font-size: 16px;
+    position: relative;
+}
+/***************************************************End Style for liste of links*/
+
+/*Style of BarSearch*/
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+  .input-group.md-form.form-sm.form-2 input {
+    border: 10px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  .input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #ef9a9a;
+  }
+  .input-group.md-form.form-sm.form-2 input.lime-border {
+    border: 1px solid #cddc39;
+  }
+  .input-group.md-form.form-sm.form-2 input.amber-border {
+    border: 1px solid #ffca28;
+  }
+/****************************************************End Style BarSearch*/

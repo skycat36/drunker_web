@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.pagepayment
+{
+  text-align: center;   
+  width: 100%;
+  background-color: #F5F5F5;
+}
+
+.payment__part
+{
+  display: inline-block;
+  width: 50%;
+  height: 600px;
+  text-align: left;
+  padding: 40px 20px 20px 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 40px 10px 40px 10px;
+  vertical-align: top;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.aside__part
+{
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  margin: 40px 10px 40px 10px;
+  text-align: left;
+  background-color: #038768;
+  border-radius: 3px;
+  vertical-align: top;
+  border-radius: 0px;
+  align-items: center;
+}
+
+.sub__part__1
+{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    text-align: center; 
+    padding-left: 50px;
+}
+
+.sub__part__2
+{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    text-align: center; 
+    padding-left: 50px;
+}
+
+.style_text
+{
+  font: 14px 'Source Code Pro', monospace;
+	color: #333;
+}
+@media screen and (max-width: 600px) 
+{
+  .payment__part, .aside__part
+    {
+       max-width: 100%;
+    }
+}

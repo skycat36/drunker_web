@@ -1,0 +1,11 @@
+.main-footer {
+    color: #f7f7f7;
+    background-color: #383838;
+    padding-top: 0.5em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+.footerLinks:visited {color: rgb(199, 199, 199);}
+.footerLinks:hover {color:  #ffffff;}

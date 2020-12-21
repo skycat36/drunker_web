@@ -1,0 +1,41 @@
+.titre{
+    height:auto; 
+    background-color:#F5F5F5;
+    height: 50px;
+    padding-top: 12px;
+    font-family: 'IntroRegular', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ic1{
+    margin-left:45px;
+}
+
+.ic2{
+    margin-left:20px;
+}
+
+.ic3{
+    margin-left:20px;
+}
+
+.img1{
+    width:16px; 
+    height:auto; 
+    margin-right:8px
+}
+
+.img2{
+    width:16px; 
+    height:auto; 
+    margin-right:8px;
+    margin-left:45px;
+}
+
+.img3{
+    width:20px; 
+    height:auto; 
+    margin-right:8px;
+    margin-left:45px;
+}

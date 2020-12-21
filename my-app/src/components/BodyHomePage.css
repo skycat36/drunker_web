@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.containerBodyHomePage
+{
+  text-align: center;
+  padding: 10px;
+  background-color: #f7f7f7;
+  line-height: 1.5;
+  padding-right: 200px;
+  padding-left: 200px;
+  width: 100%;
+}
+
+.div_center
+{
+  display: inline-block;
+  width: 260px;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff; 
+  border-radius: 3px;
+  margin: 10px;
+  height: 300px;
+}
+
+.div_center img{
+    width:150px; 
+    height:auto; 
+    margin-bottom:10px;
+}
+
+.containerBodyHomePage a{
+   color:#038768; 
+  font-weight:800; 
+  font-size:19px;
+  font-family:calibri;
+}
+
+.div_center a:hover, .div_center a:focus, .div_center a:active {
+  text-decoration: none;
+  color:#038768;
+}
+
+.containerBodyHomePage h1
+{
+  font: 22px 'Source Code Pro', monospace;
+  font-weight: 600;
+  color: #333;
+  font-size: 35px;
+  font-family: "IntroBlack", "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+  padding-bottom: 20px;
+  padding-top: 30px;
+
+  text-align: center;
+}
+
+.div_text
+{
+  font: 16px 'Source Code Pro', monospace;
+  font-weight: bold;
+	color: #333;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .div_center
+    {
+       max-width: 100%;
+    }
+}
+
+.containerBodyHomePage hr{
+    height: 3px;
+    width: 80px;
+    background-color: #018365;
+    
+}
+
+
+/*Personnalisation du bouton*/
+.parent_btn_see_more{
+  height:10vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent_btn_see_more a{
+  padding: 5px;
+  border: 0.5rem solid #018365; 
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  background: #018365;
+  color: white;
+  font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  transition: all 150ms ease-in-out 0s;
+}
+
+.btn_see_more:hover, .btn_see_more:focus, .btn_see_more:active {
+    background-color: #018365;
+    border-color: #018365;   
+    text-decoration: none;
+    color: #fff; 
+    border: 0.6rem solid #018365;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.4) inset;
+}

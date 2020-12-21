@@ -1,0 +1,119 @@
+.pagecontact
+{
+  text-align: center;   
+  width: 100%;
+  background-color: #F5F5F5;
+}
+
+.contact__part
+{
+  display: inline-block;
+  width: 50%;
+  height: 600px;
+  text-align: left;
+  padding: 40px 20px 20px 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 40px 10px 40px 10px;
+  vertical-align: top;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.aside__part
+{
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  margin: 40px 10px 40px 10px;
+  text-align: left;
+  background-color: #038768;
+  border-radius: 3px;
+  vertical-align: top;
+  border-radius: 0px;
+  align-items: center;
+}
+
+.style_text
+{
+  font: 14px 'Source Code Pro', monospace;
+	color: #333;
+}
+@media screen and (max-width: 600px) 
+{
+  .payment__part, .aside__part
+    {
+       max-width: 100%;
+    }
+}
+
+.contacts, .aside  {
+    display: inline-block;
+}
+
+h3{
+    padding: 12px 17px!important;
+    color: #fff;
+    border-bottom: 1px solid #0a8468;
+    font-size: 16px;
+    position: relative;
+}
+
+.contacts{
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 15px;
+    margin-left: 9%;
+    font-family: 'IntroRegular';
+    color: #383838;
+    background: #f7f7f7;
+    text-align: left;
+    width: 60%;
+    height: 600px;
+  }
+
+  .aside{
+    align-items: center;
+    background-color: #06886A;
+    color: black;
+    width: 25%;
+    margin-left: 200px;
+    padding: 20px;
+    height: 600px;
+    margin-left: -190px;
+    text-align: left;
+  }
+
+  .aside input{
+    background-color: white;
+    margin-left:0px;
+    padding-left:10px;
+    margin-bottom: 10px;
+  }
+
+  .contacts h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+    color: #24292e;
+    font-weight: 600;
+    line-height: 1.2;
+    
+  }
+
+  .contacts h2{
+    padding: 0;
+    font-size: 24px;
+    clear: both;
+    color: #06886A;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .contacts p{
+    font-size: 18px;
+    clear: both;
+    color: #000000;
+    font-weight: 600;
+    line-height: 1.2;
+  }
