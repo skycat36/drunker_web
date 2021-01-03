@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  app:
+    container_name: drunker-web
+    image: react-app
+    build: ./
+    ports:
+      - "3000:3000"
+    networks:
+      - drunker_network
+
+networks:
+  drunker_network:
+    external: true
+    name: drunker_network
